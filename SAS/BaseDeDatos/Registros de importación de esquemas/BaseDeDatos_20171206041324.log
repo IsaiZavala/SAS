@@ -1,0 +1,76 @@
+05/12/2017 22:13:24	Este registro contiene información acerca de la operación de importación de esquema en el proyecto 'BaseDeDatos' del equipo 'JABONLAP' por el usuario 'Lenovo'.
+05/12/2017 22:13:24	Se inició la importación del esquema de la base de datos.
+05/12/2017 22:13:41	Recopilando opciones de base de datos
+05/12/2017 22:13:41	Recopilando usuarios
+05/12/2017 22:13:41	Recopilando roles
+05/12/2017 22:13:41	Recopilando roles de aplicación
+05/12/2017 22:13:41	Recopilando pertenencias a roles
+05/12/2017 22:13:41	Recopilando grupos de archivos
+05/12/2017 22:13:41	Recopilando catálogos de texto completo
+05/12/2017 22:13:41	Recopilando ensamblados
+05/12/2017 22:13:41	Recopilando certificados
+05/12/2017 22:13:41	Recopilando claves asimétricas
+05/12/2017 22:13:41	Recopilando claves simétricas
+05/12/2017 22:13:41	Recopilando claves simétricas cifradas
+05/12/2017 22:13:41	Recopilando esquemas
+05/12/2017 22:13:41	Recopilando colecciones de esquemas XML
+05/12/2017 22:13:41	Recopilando tipos de datos definidos por el usuario
+05/12/2017 22:13:41	Recopilando tipos definidos por el usuario
+05/12/2017 22:13:41	Recopilando tipos de tabla
+05/12/2017 22:13:41	Recopilando claves únicas para tipos de tabla
+05/12/2017 22:13:41	Recopilando claves principales para tipos de tabla
+05/12/2017 22:13:41	Recopilando restricciones CHECK para tipos de tabla
+05/12/2017 22:13:41	Recopilando restricciones DEFAULT para tipos de tabla
+05/12/2017 22:13:41	Recopilando funciones de partición
+05/12/2017 22:13:41	Recopilando esquemas de partición
+05/12/2017 22:13:41	Recopilando funciones
+05/12/2017 22:13:41	Recopilando funciones cifradas
+05/12/2017 22:13:41	Recopilando agregados
+05/12/2017 22:13:41	Recopilando procedimientos
+05/12/2017 22:13:41	Recopilando procedimientos cifrados
+05/12/2017 22:13:41	Recopilando tablas
+05/12/2017 22:13:41	Recopilando claves principales
+05/12/2017 22:13:41	Recopilando restricciones UNIQUE
+05/12/2017 22:13:41	Recopilando claves externas
+05/12/2017 22:13:41	Recopilando restricciones DEFAULT
+05/12/2017 22:13:41	Recopilando restricciones CHECK
+05/12/2017 22:13:41	Recopilando vistas
+05/12/2017 22:13:41	Recopilando vistas cifradas
+05/12/2017 22:13:41	Recopilando índices
+05/12/2017 22:13:41	Recopilando estadísticas
+05/12/2017 22:13:41	Recopilando listas de palabras irrelevantes de índices de texto completo
+05/12/2017 22:13:41	Recopilando listas de propiedades de búsqueda
+05/12/2017 22:13:41	Recopilando propiedades de búsqueda
+05/12/2017 22:13:41	Recopilando índices de texto completo
+05/12/2017 22:13:41	Recopilando índices de almacenamiento de columnas
+05/12/2017 22:13:41	Recopilando índices espaciales
+05/12/2017 22:13:41	Recopilando índices XML
+05/12/2017 22:13:41	Recopilando desencadenadores cifrados
+05/12/2017 22:13:41	Recopilando desencadenadores
+05/12/2017 22:13:41	Recopilando DDL triggers cifrados y de CLR
+05/12/2017 22:13:41	Recopilando DDL triggers
+05/12/2017 22:13:41	Recopilando sinónimos
+05/12/2017 22:13:42	Recopilando valores predeterminados
+05/12/2017 22:13:42	Recopilando enlaces UDDT de restricción de datos
+05/12/2017 22:13:42	Recopilando reglas
+05/12/2017 22:13:42	Recopilando enlaces UDDT de restricción de datos
+05/12/2017 22:13:42	Recopilando tipos de mensaje
+05/12/2017 22:13:42	Recopilando colas
+05/12/2017 22:13:42	Recopilando contratos
+05/12/2017 22:13:42	Recopilando servicios
+05/12/2017 22:13:42	Recopilando notificaciones de eventos
+05/12/2017 22:13:42	Recopilando enlaces de servicio remoto
+05/12/2017 22:13:42	Recopilando prioridades de Broker
+05/12/2017 22:13:42	Recopilando firmas
+05/12/2017 22:13:42	Recopilando opciones de compresión de datos
+05/12/2017 22:13:42	Recopilando tipos de secuencia
+05/12/2017 22:13:42	Recopilando permisos de base de datos
+05/12/2017 22:13:42	Recopilando propiedades extendidas
+05/12/2017 22:13:42	Recopilando credenciales
+05/12/2017 22:13:42	Recopilando inicios de sesión
+05/12/2017 22:13:42	Recopilando auditorías de servidor
+05/12/2017 22:13:46	Buscando elementos duplicados en el proyecto
+05/12/2017 22:13:46	Ha finalizado el procesamiento de los elementos duplicados
+05/12/2017 22:13:47	Finalizó la importación de la base de datos.
+05/12/2017 22:13:47	Se guardó un resumen de la importación en la siguiente ubicación: C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\Registros de importación de esquemas\BaseDeDatos_20171206041324.log
+05/12/2017 22:13:47	Haga clic en Finalizar para continuar...

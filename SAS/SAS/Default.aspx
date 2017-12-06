@@ -23,9 +23,26 @@
 
     <!-- Custom styles for this template -->
     <link href="Site/css/agency.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="Site/jquery/jquery.min.js"></script>
+    <script src="Site/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="Site/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="Site/js/jqBootstrapValidation.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="Site/js/agency.min.js"></script>
 </head>
 
 <body id="page-top">
+<form runat="server">
+    <asp:ScriptManager ID="scriptManager" runat="server">
+
+    </asp:ScriptManager>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
@@ -404,6 +421,9 @@
     </section>
 
     <!-- Contact -->
+    
+    <asp:UpdatePanel ID="upIniciarSesion" runat="server" UpdateMode="Always">
+        <ContentTemplate>
     <section id="contact">
       <div class="container">
         <div class="row">
@@ -414,19 +434,18 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form runat="server" id="contactForm" name="sentMessage" novalidate>
               <div class="row">
                 <div class="col-md-12">
                   <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Nombre *" required data-validation-required-message="Se requiere nombre">
+                      <input type="text" runat="server" id="txtName" class="form-control" placeholder="Nombre *" required="required"/>
+                        <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" runat="server" id="txtEmail" type="email" placeholder="Correo electronico *" required>
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Correo electronico *" required data-validation-required-message="Se requiere el correo electronico">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" maxlength="10" type="tel" placeholder="Número de celular *" required data-validation-required-message="Se requiere numero de celular">
+                    <input class="form-control" runat="server" id="txtPhone" maxlength="10" type="tel" placeholder="Número de celular *" required>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -436,11 +455,17 @@
                   <asp:Button runat="server" id="btnIniciarSesion" CssClass="btn btn-primary btn-xl text-uppercase" OnClick="btnIniciarSesion_Click" Text="Iniciar sesion" />
                 </div>
               </div>
-            </form>
+              <div class="row">
+                  <div class="col-md-12">
+                      <asp:CustomValidator BackColor="Transparent" ForeColor="Red" ID="cusErrorIniciarSesion" runat="server"></asp:CustomValidator>
+                  </div>
+              </div>
           </div>
         </div>
       </div>
     </section>
+    </ContentTemplate>
+    </asp:UpdatePanel>
 
     <!-- Footer -->
     <footer>
@@ -687,20 +712,7 @@
         </div>
       </div>
     </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="Site/jquery/jquery.min.js"></script>
-    <script src="Site/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="Site/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="Site/js/jqBootstrapValidation.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="Site/js/agency.min.js"></script>
-
+</form>
   </body>
 
 </html>

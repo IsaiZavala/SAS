@@ -16,7 +16,12 @@ namespace SAS
 
         protected void btnIniciarSesion_Click(object sender, EventArgs e)
         {
+            string straName = txtName.Value;
 
+            cusErrorIniciarSesion.ErrorMessage = "No se pudo iniciar sesion";
+            cusErrorIniciarSesion.IsValid = false;
+
+            Response.Redirect("~/WEB/Forms/Inicio.aspx", false);
         }
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\bin\Debug\BaseDeDatos.dacpac
+C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\bin\Debug\BaseDeDatos.dll
+C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\bin\Debug\BaseDeDatos.pdb
+C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\obj\Debug\Model.xml
+C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\obj\Debug\refactor.xml
+C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\obj\Debug\postdeploy.sql
+C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\obj\Debug\predeploy.sql
+C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\obj\Debug\BaseDeDatos.dll
+C:\Users\Lenovo\Desktop\SAS\SAS\BaseDeDatos\obj\Debug\BaseDeDatos.pdb
